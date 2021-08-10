@@ -1,4 +1,4 @@
 import sys
- if argv.sys == ("eggs")
-        print("eggs")
+ if argv.sys == ("spam")
+        print("spam")
 
