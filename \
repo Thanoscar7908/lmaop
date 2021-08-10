@@ -1,0 +1,4 @@
+import sys
+if "spam" in sys.argv:  
+	print ("spam")
+	
