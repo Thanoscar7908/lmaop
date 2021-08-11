@@ -1,0 +1,1 @@
+print("\norange" * 10)
