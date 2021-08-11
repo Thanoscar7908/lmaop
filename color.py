@@ -1,3 +1,6 @@
 import sys
 
-print("orange")
+favorite_color = ("orange")
+
+print(favorite_color)
+
