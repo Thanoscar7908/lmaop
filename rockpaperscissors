@@ -1,0 +1,39 @@
+import random
+
+WORDS = ("rock", "paper", "scissors")
+word = random.choice(WORDS)
+
+if word == ("rock"):
+	rock = input("rock, paper,or scissors? ")
+	if rock == ("rock"):
+		print("tie")
+	elif rock == ("paper"):
+		print("you win!")
+	elif rock == ("scissors"):
+		print("you lose!")
+	else:
+		print("stop saying random stuff")
+if word == ("paper"):
+	rock = input("rock, paper,or scissors? ")
+	if rock == ("rock"):
+		print("you lose!")
+	elif rock == ("paper"):
+		print("tie")
+	elif rock == ("scissors"):
+		print("you win!")
+	else:
+		print("stop saying random stuff")
+if word == ("scissors"):
+	rock = input("rock, paper,or scissors? ")
+	if rock == ("rock"):
+		print("you win!")
+	elif rock == ("paper"):
+		print("you lose!")
+	elif rock == ("scissors"):
+		print("tie")
+	else:
+		print("stop saying random stuff")
+
+
+
+

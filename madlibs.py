@@ -8,10 +8,16 @@ def parse_args(args):
 
     return args[1:]
 
- sys.argv[index] == '_':
+args = parse_args(sys.argv)
 
-        sys.argv[index] = get_world()
+for index in range(len(args)):
 
-result = ' '.join(sys.argv[1:])
+    if args[index] == '_':
 
-print(result)   
+        args[index] = get_word()
+
+result = ' '.join(args)
+
+print(result)
+print(args)
+print(sys.argv)

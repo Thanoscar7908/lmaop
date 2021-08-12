@@ -1,0 +1,7 @@
+import sys
+arg = sys.argv[1]
+first_char = (arg[0])
+if first_char == ("1"):
+	print("one")
+else:
+	print("not a one")
